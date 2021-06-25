@@ -1,0 +1,44 @@
+*
+{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+background:#ebeded;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.Container
+{
+   position: relative;
+   width: 100%;
+   max-width: 1000px; 
+   min-height: 1000px;
+   background: #ffff;
+   margin: 50px;
+   display: grid;
+   grid-template-columns: 1fr 2fr ;
+   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+   
+}
+
+.Container .Left_side
+{
+   position: relative;
+   background-color: #a0a8a8;
+   padding: 40px; 
+}
+
+.Container .Right_side
+{
+   position: relative;
+   background-color:white;
+   padding: 40px; 
+}

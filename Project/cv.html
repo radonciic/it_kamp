@@ -10,6 +10,8 @@
     
 </head>
 <body>
+<div >
+
 
 <div class="Header">
     <div class="Header_text">
@@ -22,21 +24,27 @@
             </div>
     </div>    
 </div>
-<div class="About_me">
-    <img src="images2/blue.jpg" width="1000" height="250">
+<div class="About_me" style="box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+    <img src="images2/blue.jpg" style="border-top-left-radius:20px;
+    border-top-right-radius:20px;;" width="1000" height="250">
       <div class="Informations">
           <h2>Joyce Harrison</h2>
           <p>Graphic designer & Web developer 
               
           </p>
-<div class="Image">
-    <img src="images2/Joyce.jpg" width="200" height="200">
+<div class="Image" style="background-color: white;  border-color: white;">
+    <img  style=" border: 10px solid white;"  src="images2/Joyce.jpg" width="200" height="200">
 </div>
 
 <div class="About_me2">
-    <h2>About me</h2>
-    <p>Hello! I’m Joyce Harrison. I am passionate <br> about UI/UX design and Web Design. I am <br> skilled Front-end Developer and master <br> of Graphic Design tools such as <br> Photoshop and Sketch.</p>
-
+    <div class="About-left"> 
+        <h2>About me</h2>
+        <p>Hello! I’m Joyce Harrison. I am passionate <br> about UI/UX design and Web Design. I am <br> skilled Front-end Developer and master <br> of Graphic Design tools such as <br> Photoshop and Sketch.</p>
+    
+    </div>
+    <div class="About-right">
+       <p>ha bate</p>
+    </div>
 
 </div>
 
@@ -45,6 +53,14 @@
       
 </div>
 
+<hr style="background-color:lightgray">
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
 
 
 </body>
